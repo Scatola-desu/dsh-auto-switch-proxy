@@ -1,6 +1,6 @@
 {
   "name": "dsh-auto-switch-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Rule-based Auto Switch proxy for DSH: per-request direct/proxy routing with SwitchyOmega and AutoProxy subscriptions.",
@@ -37,8 +37,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
+    "docs/sidebar-menu.png",
     "README.md",
-    "README.zh.md",
     "CHANGELOG.md",
     "SECURITY.md",
     "LICENSE"

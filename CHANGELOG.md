@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-10-25
+
+- Add a sidebar menu screenshot to the README.
+- Merge the English and Chinese documentation into a single `README.md`.
+
 ## 1.0.0 — 2026-10-25
 
 - Initial public release.
