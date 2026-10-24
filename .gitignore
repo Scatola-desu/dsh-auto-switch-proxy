@@ -1,0 +1,9 @@
+node_modules/
+state.json
+rules/
+*.log
+*.bak
+*.bak-*
+.dsh-pilot/
+ui-preview/
+.DS_Store

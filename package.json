@@ -1,0 +1,61 @@
+{
+  "name": "dsh-auto-switch-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Rule-based Auto Switch proxy for DSH: per-request direct/proxy routing with SwitchyOmega and AutoProxy subscriptions.",
+  "license": "MIT",
+  "author": "dsh-auto-switch-proxy contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scatola-desu/dsh-auto-switch-proxy.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "proxy",
+    "auto-switch",
+    "switchyomega",
+    "autoproxy"
+  ],
+  "engines": {
+    "node": ">=24.5"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/switch.js",
+    "lib/rules.js",
+    "lib/router.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    },
+    "engines": {
+      "dsh": ">=0.2.0-rc.1"
+    }
+  }
+}

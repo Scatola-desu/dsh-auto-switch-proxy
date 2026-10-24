@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Auto Switch Proxy",
+    "description": "Rule-based Auto Switch proxy for DSH: per-request direct/proxy routing with SwitchyOmega and AutoProxy subscriptions."
+  }
+}

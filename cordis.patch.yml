@@ -1,0 +1,3 @@
+- insert:
+    - id: proxy-switchy
+      name: 'dsh-auto-switch-proxy'

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Proxy Switchy">
+  <defs>
+    <linearGradient id="psx-bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2f7cf6"/>
+      <stop offset="1" stop-color="#1656c9"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#psx-bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round">
+    <circle cx="32" cy="29" r="14" opacity="0.95"/>
+    <ellipse cx="32" cy="29" rx="6.2" ry="14" opacity="0.75"/>
+    <path d="M18.4 25.2h27.2M18.4 33h27.2" opacity="0.75"/>
+  </g>
+  <g fill="none" stroke="#9fe0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 49.5h17.5"/>
+    <path d="M37.5 45.5l4.5 4-4.5 4"/>
+  </g>
+  <circle cx="48.5" cy="15.5" r="4.5" fill="#7ef0b2" stroke="#0f3f8f" stroke-width="1.6"/>
+</svg>
